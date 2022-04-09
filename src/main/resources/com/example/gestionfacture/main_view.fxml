@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane fx:id="mainBorderPane" prefHeight="470.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gestionfacture.MainController">
+   <top>
+      <MenuBar>
+         <Menu mnemonicParsing="false" text="Product">
+            <items >
+               <MenuItem fx:id="btnProduct"  text="Product"/>
+            </items>
+         </Menu>
+
+         <Menu mnemonicParsing="false" text="Facture">
+            <items>
+               <MenuItem fx:id="btnFacture" mnemonicParsing="false" text="Facture"/>
+            </items>
+         </Menu>
+
+         <Menu mnemonicParsing="false" text="Ligne de Commande">
+            <items>
+               <MenuItem fx:id="btnLigneCommande" mnemonicParsing="false" text="Ligne de Commande"/>
+            </items>
+         </Menu>
+
+      </MenuBar>
+   </top>
+</BorderPane>
